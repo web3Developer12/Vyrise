@@ -1,0 +1,19 @@
+@font-face {
+    font-family:'CLIMATECRISIS';
+    src: url('./assets/fonts/static/ClimateCrisis-Regular.ttf');
+}
+.ClimateCrisis{
+    font-family:'CLIMATECRISIS';
+}
+@font-face {
+    font-family:'INTERBOLD';
+    src: url('./assets/fonts/static/Inter-Bold.ttf');
+}
+@font-face {
+    font-family:'CHAKRAREGULAR';
+    src: url('./assets/fonts/static/ChakraPetch-Medium.ttf');
+}
+@font-face {
+    font-family:'TLTREGULAR';
+    src: url('./assets/fonts/static/TiltWarp-Regular.ttf');
+}
