@@ -1,32 +1,29 @@
 .App{
-  height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   user-select:none;
-  background-color:#000000;
-  overflow:hidden;
 
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1500 1100%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%221500%22 height=%221100%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h1500v1100H0z%22%2F%3E%3C%2Fmask%3E%3Cpath d=%22M0 0h1500v1100H0z%22%2F%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%234b4b4b%22 stroke-width=%221.5%22 mask=%22url(%23b)%22%3E%3Cpath fill=%22none%22 d=%22M0 0h75v75H0z%22%2F%3E%3Cpath fill=%22%234b4b4b91%22 d=%22M75 0h75v75H75z%22%2F%3E%3Cpath fill=%22%234b4b4b6f%22 d=%22M150 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M225 0h75v75h-75zM300 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bcf%22 d=%22M375 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bc8%22 d=%22M450 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M525 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b96%22 d=%22M600 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4beb%22 d=%22M675 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 0h75v75h-75zM825 0h75v75h-75zM900 0h75v75h-75zM975 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b39%22 d=%22M1050 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1125 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b48%22 d=%22M1200 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1275 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b49%22 d=%22M1350 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1425 0h75v75h-75zM0 75h75v75H0zM75 75h75v75H75zM150 75h75v75h-75zM225 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b41%22 d=%22M300 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M375 75h75v75h-75zM450 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b6c%22 d=%22M525 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M600 75h75v75h-75zM675 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b4a%22 d=%22M750 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bcd%22 d=%22M825 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M900 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4be7%22 d=%22M975 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b85%22 d=%22M1050 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1125 75h75v75h-75zM1200 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b01%22 d=%22M1275 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b7c%22 d=%22M1425 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 150h75v75H0zM75 150h75v75H75zM150 150h75v75h-75zM225 150h75v75h-75zM300 150h75v75h-75zM375 150h75v75h-75zM450 150h75v75h-75zM525 150h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b33%22 d=%22M600 150h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 150h75v75h-75zM750 150h75v75h-75zM825 150h75v75h-75zM900 150h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4beb%22 d=%22M975 150h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 150h75v75h-75zM1125 150h75v75h-75zM1200 150h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bfb%22 d=%22M1275 150h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 150h75v75h-75zM1425 150h75v75h-75zM0 225h75v75H0zM75 225h75v75H75zM150 225h75v75h-75zM225 225h75v75h-75zM300 225h75v75h-75zM375 225h75v75h-75zM450 225h75v75h-75zM525 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b8f%22 d=%22M600 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b58%22 d=%22M675 225h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 225h75v75h-75zM825 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bcb%22 d=%22M900 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bac%22 d=%22M975 225h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 225h75v75h-75zM1125 225h75v75h-75zM1200 225h75v75h-75zM1275 225h75v75h-75zM1350 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b4c%22 d=%22M1425 225h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 300h75v75H0zM75 300h75v75H75zM150 300h75v75h-75zM225 300h75v75h-75zM300 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4ba9%22 d=%22M375 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bf9%22 d=%22M525 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b4d%22 d=%22M600 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 300h75v75h-75zM750 300h75v75h-75zM825 300h75v75h-75zM900 300h75v75h-75zM975 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b75%22 d=%22M1050 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1125 300h75v75h-75zM1200 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b3c%22 d=%22M1275 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 300h75v75h-75zM1425 300h75v75h-75zM0 375h75v75H0zM75 375h75v75H75zM150 375h75v75h-75zM225 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bc4%22 d=%22M300 375h75v75h-75zM375 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 375h75v75h-75zM525 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b79%22 d=%22M600 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 375h75v75h-75zM750 375h75v75h-75zM825 375h75v75h-75zM900 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bf9%22 d=%22M975 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bd9%22 d=%22M1050 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1125 375h75v75h-75zM1200 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bac%22 d=%22M1275 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 375h75v75h-75zM1425 375h75v75h-75zM0 450h75v75H0zM75 450h75v75H75z%22%2F%3E%3Cpath fill=%22%234b4b4b6c%22 d=%22M150 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b38%22 d=%22M225 450h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M300 450h75v75h-75zM375 450h75v75h-75zM450 450h75v75h-75zM525 450h75v75h-75zM600 450h75v75h-75zM675 450h75v75h-75zM750 450h75v75h-75zM825 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4ba4%22 d=%22M900 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b5a%22 d=%22M975 450h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bca%22 d=%22M1125 450h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 450h75v75h-75zM1275 450h75v75h-75zM1350 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b43%22 d=%22M1425 450h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 525h75v75H0zM75 525h75v75H75zM150 525h75v75h-75zM225 525h75v75h-75zM300 525h75v75h-75zM375 525h75v75h-75zM450 525h75v75h-75zM525 525h75v75h-75zM600 525h75v75h-75zM675 525h75v75h-75zM750 525h75v75h-75zM825 525h75v75h-75zM900 525h75v75h-75zM975 525h75v75h-75zM1050 525h75v75h-75zM1125 525h75v75h-75zM1200 525h75v75h-75zM1275 525h75v75h-75zM1350 525h75v75h-75zM1425 525h75v75h-75zM0 600h75v75H0z%22%2F%3E%3Cpath fill=%22%234b4b4bff%22 d=%22M75 600h75v75H75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M150 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bbb%22 d=%22M225 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M300 600h75v75h-75zM375 600h75v75h-75zM450 600h75v75h-75zM525 600h75v75h-75zM600 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b5d%22 d=%22M675 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 600h75v75h-75zM825 600h75v75h-75zM900 600h75v75h-75zM975 600h75v75h-75zM1050 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b5e%22 d=%22M1125 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 600h75v75h-75zM1275 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bc9%22 d=%22M1350 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1425 600h75v75h-75zM0 675h75v75H0zM75 675h75v75H75zM150 675h75v75h-75zM225 675h75v75h-75zM300 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4be6%22 d=%22M375 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 675h75v75h-75zM525 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b7c%22 d=%22M600 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 675h75v75h-75zM750 675h75v75h-75zM825 675h75v75h-75zM900 675h75v75h-75zM975 675h75v75h-75zM1050 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4ba1%22 d=%22M1125 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b44%22 d=%22M1275 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b95%22 d=%22M1350 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1425 675h75v75h-75zM0 750h75v75H0zM75 750h75v75H75zM150 750h75v75h-75zM225 750h75v75h-75zM300 750h75v75h-75zM375 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b8a%22 d=%22M450 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M525 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b03%22 d=%22M600 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 750h75v75h-75zM750 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b48%22 d=%22M825 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M900 750h75v75h-75zM975 750h75v75h-75zM1050 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bbd%22 d=%22M1125 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 750h75v75h-75zM1275 750h75v75h-75zM1350 750h75v75h-75zM1425 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b46%22 d=%22M0 825h75v75H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M75 825h75v75H75zM150 825h75v75h-75zM225 825h75v75h-75zM300 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b4c%22 d=%22M375 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bb5%22 d=%22M525 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b9b%22 d=%22M600 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b87%22 d=%22M750 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M825 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b46%22 d=%22M900 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bfd%22 d=%22M975 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b1c%22 d=%22M1125 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 825h75v75h-75zM1275 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bd6%22 d=%22M1350 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1425 825h75v75h-75zM0 900h75v75H0zM75 900h75v75H75z%22%2F%3E%3Cpath fill=%22%234b4b4be2%22 d=%22M150 900h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M225 900h75v75h-75zM300 900h75v75h-75zM375 900h75v75h-75zM450 900h75v75h-75zM525 900h75v75h-75zM600 900h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bb2%22 d=%22M675 900h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 900h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b30%22 d=%22M825 900h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M900 900h75v75h-75zM975 900h75v75h-75zM1050 900h75v75h-75zM1125 900h75v75h-75zM1200 900h75v75h-75zM1275 900h75v75h-75zM1350 900h75v75h-75zM1425 900h75v75h-75zM0 975h75v75H0zM75 975h75v75H75zM150 975h75v75h-75zM225 975h75v75h-75zM300 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bde%22 d=%22M375 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 975h75v75h-75zM525 975h75v75h-75zM600 975h75v75h-75zM675 975h75v75h-75zM750 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b8c%22 d=%22M825 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bfc%22 d=%22M900 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M975 975h75v75h-75zM1050 975h75v75h-75zM1125 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bfb%22 d=%22M1200 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b75%22 d=%22M1275 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 975h75v75h-75zM1425 975h75v75h-75zM0 1050h75v75H0zM75 1050h75v75H75zM150 1050h75v75h-75zM225 1050h75v75h-75zM300 1050h75v75h-75zM375 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4b81%22 d=%22M450 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bfd%22 d=%22M525 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M600 1050h75v75h-75zM675 1050h75v75h-75zM750 1050h75v75h-75zM825 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bf1%22 d=%22M900 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M975 1050h75v75h-75zM1050 1050h75v75h-75zM1125 1050h75v75h-75zM1200 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bd4%22 d=%22M1275 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234b4b4bc5%22 d=%22M1350 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1425 1050h75v75h-75z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff%22%2F%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
-  
 }
 .logo{
-  color:white;
-  font-size:23px;
+  font-size:calc(.5em + 1vw);
   display:flex;
   align-items:center;
   justify-content:center;
   grid-column-gap:12px;
+  z-index:12;
 }
+
 .nav-bar{
-  padding: 28px;
+  padding-inline:2%;
+  padding-top:2%;
+  padding-bottom:2%;
+
   display:grid;
   grid-template-columns:auto 1fr 13%;
-  grid-column-gap:22px;
-  font-family:'CHAKRAREGULAR';
+  grid-column-gap:45px;
   align-items:center;
   justify-content:center;
 
@@ -52,12 +49,14 @@
   margin-right:19%;
   text-transform:uppercase;
   cursor: pointer;
-}
-
-.nav-items li:hover{
-  color:greenyellow;
-  background-color:greenyellow;
   color:black;
+  font-family:'MACHINAREGULAR';
+  border-bottom: 4px solid transparent;
+
+
+}
+.nav-items li:hover{
+  border-bottom: 4px solid#50FF0E;
 }
 *{
 
@@ -90,39 +89,35 @@
 
 }
 
-
 @keyframes spinner {
   100% {
     transform: rotate(360deg);
   }
 }
 .container {
-  width: 100%;
+  position:absolute;
+  top:0;
+  left:68%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform:scale(.8);
-
-
+  transform:scale(1.2);
 }
 
 .spinner {
   width: 300px;
   height: 300px;
   align-self: center;
-
   transform-origin: 50% 54.5%;
+  cursor: pointer;
 
 }
 .canSpin{
-  animation: spinner 3s infinite alternate ease-in-out;
+  animation: spinner 12s infinite alternate ease-in-out;
 
 }
-.det{
-  font-family:'CHAKRAREGULAR';
 
-}
 .bottom{
   width:100%;
   padding:2%;
@@ -132,12 +127,295 @@
   color:white;
 }
 .bottom-nav{
-  font-size:12px;
+  font-size:calc(.5em + 1vw);
   list-style:none;
   padding-top:1%;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .yy{
   color:#adff2f;
+}
+.content{
+  background-color:black;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:repeat(2,1fr);
+  margin-inline:2%;
+  height:83%;
+  grid-column-gap:.1%;
+  grid-row-gap:.1%;
+  padding-top:.1%;
+  padding-bottom:.1%;
+  padding-inline:.1%;
+  overflow:hidden;
+  
+}
+.ceil-1{
+  position:relative;
+  grid-column:2 span;
+  padding:5%;
+  overflow:hidden;
+  align-items:center;
+}
+.ceil-1 .header{
+  font-size:53px;
+  font-family:'MERSAD';
+
+}
+.ceil-1 .sub{
+  margin-top:1%;
+  font-family:'MACHINAREGULAR';
+}
+.ceil-2 {
+  color:white;
+  padding:5%;
+  background-color:white;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  grid-row-gap:3%;
+  position:relative;
+}
+.ceil-2 .header{
+  font-size:53px;
+  width:100%;
+  font-family:'MERSAD';
+  color: #000000;
+}
+.ceil-2 .sub{
+  margin-top:1%;
+  font-family:'MACHINAREGULAR';
+  color:black;
+}
+.wrapper-scrolling-h2{
+  width:100%;
+  height:23%;
+
+  background-color:greenyellow;
+
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20%, 0);
+  }
+}
+.ceil{
+  background-color:white;
+  border-radius:12px;
+  z-index:12 !important;
+  overflow:hidden;
+  border:1px solid black;
+}
+
+.tr-1{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1332;
+    background-image: radial-gradient(
+    rgba(0, 0, 0, 0) 1px,
+    white 1px
+  );
+  background-size: 4px 4px;
+  backdrop-filter: blur(3px);
+  font-size: 14px;
+  line-height: 14px;
+}
+.tr-2{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1332;
+    background-image: radial-gradient(
+    rgba(0, 0, 0, 0) 1px,
+    white 1px
+  );
+  background-size: 4px 4px;
+  backdrop-filter: blur(18px);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+
+
+.original-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  border-radius: 0px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border: 2px solid #333333;
+  transition: 0.3s;
+  box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
+  background-color: #ffffff;
+  font-family:'MERSAD';
+  cursor: pointer;
+
+}
+
+.original-button:hover {
+  box-shadow: 0 0 #333;
+  color: #fff;
+  background-color: #333;
+}
+.ceil-3 {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  padding:6%;
+  font-size:18px;
+  background-color: #ffffff;
+  background-image:  linear-gradient(#00000048 1px, transparent 1px), linear-gradient(to right, #0000005e 1px, #ffffff 1px);
+  background-size: 20px 20px;
+  position:relative;
+}
+.ceil-3 .header{
+  font-size:53px;
+  font-family:'MERSAD';
+  color: #000000;
+}
+.ceil-3 .sub{
+  font-family:'MACHINAREGULAR';
+  margin-top:2%;
+}
+.ceil-3 .star{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:4%;
+  font-size:113px;
+  font-family:'MERSAD';
+  color: #000000;
+  cursor: pointer;
+}
+
+.ceil-4 {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  padding:6%;
+  font-size:18px;
+  position:relative;
+  grid-row-gap:9%;
+}
+.ceil-4 .header{
+  font-size:53px;
+  color: #000000;
+  font-family:'MERSAD';
+
+}
+.ceil-4 .sub{
+  font-family:'MACHINAREGULAR';
+  font-size:18px;
+  width:87%;
+  
+}
+.social{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:56px;
+  width:56px;
+  border:3px solid black;
+  background-color:#50FF0E;
+}
+.socials{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  grid-column-gap:2%;
+  width:100%;
+}
+.connect{
+  text-decoration:underline;
+  font-family:'MACHINAREGULAR';
+
+}
+.about{
+  
+  display:flex;
+  flex-direction:column;
+  grid-row-gap:7%;
+ padding-top:8%;
+ padding-bottom:4%;
+ padding-inline:6%;
+ overflow:hidden;
+ overflow-y:scroll;
+}
+.about .header{
+  font-size:56px;
+  font-family:'MACHINAREGULAR';
+}
+.about .sub{
+  font-size:18px;
+  font-family:'MACHINAREGULAR';
+  line-height:23px;
+  text-align:justify;
+  width:97%;
+}
+.bottom-about{
+  position:sticky;
+  bottom:0;
+  min-height: 61px;
+  width:100%;
+  z-index:12;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0) 1px,
+    white 1px
+  );
+  background-size: 4px 4px;
+  backdrop-filter: blur(8px);
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}
+.exchanges {
+  display: inline-flex;
+  list-style:none;
+}
+.exchanges li{
+  border:1px solid black;
+  padding:18px;
+  margin-right:2%;
+  font-family:'MACHINAREGULAR';
+  cursor: pointer;
+  transition:.3s;
+}
+.exchanges li:hover{
+  background-color:black;
+  color:white;
 }

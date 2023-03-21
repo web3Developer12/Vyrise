@@ -3,7 +3,7 @@
     src: url('./assets/fonts/static/ClimateCrisis-Regular.ttf');
 }
 .ClimateCrisis{
-    font-family:'CLIMATECRISIS';
+    font-family:'MERSAD';
 }
 @font-face {
     font-family:'INTERBOLD';
@@ -16,4 +16,12 @@
 @font-face {
     font-family:'TLTREGULAR';
     src: url('./assets/fonts/static/TiltWarp-Regular.ttf');
+}
+@font-face {
+    font-family:'MERSAD';
+    src: url('./assets/fonts/static/NeueMachina/NeueMachina-Ultrabold.otf');
+}
+@font-face {
+    font-family:'MACHINAREGULAR';
+    src: url('./assets/fonts/static/NeueMachina/NeueMachina-Regular.otf');
 }
