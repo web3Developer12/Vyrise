@@ -4,12 +4,7 @@
     }
     .hero span{
         text-align:center;
-    }
-    .container {
-        transform:scale(.8);
-    
-    }
-      
+    }  
       
 }
 @media only screen and (max-width: 900px) {
