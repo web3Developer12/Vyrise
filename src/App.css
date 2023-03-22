@@ -305,7 +305,9 @@
 .ceil-3 .sub{
   font-family:'MACHINAREGULAR';
   margin-top:2%;
-  font-size:calc( .4em + 1vw);
+  font-size:calc( .2em + 1vw);
+  text-align:justify;
+
 
 }
 .ceil-3 .star{
@@ -341,9 +343,7 @@
   font-family:'MACHINAREGULAR';
   font-size:18px;
   width:87%;
-  font-size:calc( .4em + 1vw);
-
-  
+  font-size:calc( .2em + 1vw);
 }
 
 .ceil-5 {
