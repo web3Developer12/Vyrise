@@ -151,21 +151,28 @@
   
 }
 .ceil-1{
-  position:relative;
   grid-column:2 span;
+  position:relative;
   padding:4%;
-  overflow:hidden;
-  align-items:center;
+
+  display:flex;
+  flex-direction:column;
+
+  align-items:flex-start;
+  justify-content:center;
+
 }
 
 .ceil-1 .header{
   font-size:calc( 1.8em + 1vw);
   font-family:'MERSAD';
+  width:100%;
+
 }
 .ceil-1 .sub{
-  margin-top:1%;
   font-family:'MACHINAREGULAR';
   font-size:calc( .2em + 1vw);
+  
 }
 .ceil-2 {
   color:white;
@@ -212,7 +219,6 @@
   background-color:white;
   border-radius:12px;
   z-index:12 !important;
-  overflow:hidden;
   border:1px solid black;
 }
 

@@ -52,7 +52,7 @@ function TextAnimationBr(props) {
 
 function TextAnimationSub(props) {
   const text = props.text.split(" ");
-  return <AnimatePresence>
+  return <motion.div style={{width:"100%"}}>
 
     {
       text.map((word, key) => {
@@ -62,7 +62,7 @@ function TextAnimationSub(props) {
         </motion.span>
       })
     }
-  </AnimatePresence>
+  </motion.div>
 }
 
 function ParallaxText({ children, baseVelocity = 100 }) {
