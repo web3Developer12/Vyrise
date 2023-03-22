@@ -362,7 +362,8 @@ function App() {
 
         </motion.div>
 
-        <motion.div className='ceil-4 ceil' drag
+          
+        <motion.div className='ceil-5 ceil' drag
             dragConstraints={{
                 top: 0,
                 right: 0,

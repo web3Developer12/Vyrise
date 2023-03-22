@@ -1,11 +1,9 @@
 .App{
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  user-select:none;
-
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
 }
 .logo{
   font-size:calc(.5em + 1vw);
@@ -18,14 +16,14 @@
 
 .nav-bar{
   padding-inline:2%;
-  padding-top:2%;
+  padding-top:1%;
   padding-bottom:2%;
-
   display:grid;
   grid-template-columns:auto 1fr 13%;
   grid-column-gap:45px;
   align-items:center;
   justify-content:center;
+  width:100%;
 
 }
 .first-nav{
@@ -142,30 +140,29 @@
   grid-template-columns:repeat(3,1fr);
   grid-template-rows:repeat(2,1fr);
   margin-inline:2%;
-  height:83%;
   grid-column-gap:.1%;
   grid-row-gap:.1%;
   padding-top:.1%;
-  padding-bottom:.1%;
   padding-inline:.1%;
-  overflow:hidden;
+  overflow-x:hidden;
   
 }
 .ceil-1{
   position:relative;
   grid-column:2 span;
-  padding:5%;
+  padding:4%;
   overflow:hidden;
   align-items:center;
 }
-.ceil-1 .header{
-  font-size:53px;
-  font-family:'MERSAD';
 
+.ceil-1 .header{
+  font-size:calc( 1.8em + 1vw);
+  font-family:'MERSAD';
 }
 .ceil-1 .sub{
   margin-top:1%;
   font-family:'MACHINAREGULAR';
+  font-size:calc( .2em + 1vw);
 }
 .ceil-2 {
   color:white;
@@ -180,7 +177,8 @@
   position:relative;
 }
 .ceil-2 .header{
-  font-size:53px;
+  font-size:calc( 1.8em + 1vw);
+
   width:100%;
   font-family:'MERSAD';
   color: #000000;
@@ -189,6 +187,8 @@
   margin-top:1%;
   font-family:'MACHINAREGULAR';
   color:black;
+  font-size:calc( .4em + 1vw);
+
 }
 .wrapper-scrolling-h2{
   width:100%;
@@ -288,12 +288,16 @@
 }
 .ceil-3 .header{
   font-size:53px;
+  font-size:calc( 1.8em + 1vw);
+  
   font-family:'MERSAD';
   color: #000000;
 }
 .ceil-3 .sub{
   font-family:'MACHINAREGULAR';
   margin-top:2%;
+  font-size:calc( .4em + 1vw);
+
 }
 .ceil-3 .star{
   position:absolute;
@@ -318,6 +322,8 @@
 }
 .ceil-4 .header{
   font-size:53px;
+  font-size:calc( 1.8em + 1vw);
+
   color: #000000;
   font-family:'MERSAD';
 
@@ -326,6 +332,35 @@
   font-family:'MACHINAREGULAR';
   font-size:18px;
   width:87%;
+  font-size:calc( .4em + 1vw);
+
+  
+}
+
+.ceil-5 {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  padding:6%;
+  font-size:18px;
+  position:relative;
+  grid-row-gap:9%;
+}
+.ceil-5 .header{
+  font-size:53px;
+  font-size:calc( 1.8em + 1vw);
+
+  color: #000000;
+  font-family:'MERSAD';
+
+}
+.ceil-5 .sub{
+  font-family:'MACHINAREGULAR';
+  font-size:18px;
+  width:87%;
+  font-size:calc( .4em + 1vw);
+
   
 }
 .social{
