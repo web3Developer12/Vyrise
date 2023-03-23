@@ -42,6 +42,11 @@
 
     }
 
+    .ceil-1 .header{
+        font-size:calc( 1.4em + 1vw);
+      
+      }
+
       
 }
 
