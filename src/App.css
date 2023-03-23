@@ -148,7 +148,7 @@
   grid-row-gap:.1%;
   padding-top:.1%;
   padding-inline:.1%;
-  overflow-x:hidden;
+  overflow:hidden;
   margin-bottom:1%;
   
 }
