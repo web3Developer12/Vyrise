@@ -2,7 +2,7 @@ import './App.css'
 import twitter from "./assets/twitter.svg"
 import insta from "./assets/instagram.svg"
 import logo from "./assets/ICON.svg"
-
+import hamburger from "./assets/hamburger.svg"
 
 import { AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
@@ -166,37 +166,42 @@ function App() {
 
       <motion.div className='nav-bar'>
 
-      <motion.div className='logo' style={{ color }}>
-        <motion.img drag src={logo} width={32} 
-          dragConstraints={{
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-          }}
-          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
-          dragElastic={0.5}/>
-        <TextAnimation text={"SPIN COIN"} class='ClimateCrisis' />
+        <motion.div className='logo' style={{ color }}>
+          <motion.img drag src={logo} width={32} 
+            dragConstraints={{
+                top: 0,
+                right: 0,
+                bottom: 0,
+                left: 0,
+            }}
+            dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+            dragElastic={0.5}/>
+          <TextAnimation text={"SPIN COIN"} class='ClimateCrisis' />
+
+        </motion.div>
+
+        <motion.div className='nav-items'  >
+          <motion.ul className='first-nav' variants={container} initial="hidden" animate="show">
+            <motion.li variants={item} style={{ color }} onClick={()=>{navigate('/about')}}>About</motion.li>
+            <motion.li variants={item} style={{ color }}>Exchange</motion.li>
+            <motion.li variants={item} style={{ color }}>Sale</motion.li>
+            <motion.li variants={item} style={{ color }}>Discussion</motion.li>
+          </motion.ul>
+        </motion.div>
+
+        <div className='nav-items'>
+          <motion.ul className='first-nav' variants={container} initial="hidden" animate="show">
+            <motion.li variants={item}> Buy/sell</motion.li>
+            <motion.li variants={item}>Support</motion.li>
+          </motion.ul>
+        </div>
+
+        <div className='hamburger'>
+          <img src={hamburger}/>
+        </div>
 
       </motion.div>
 
-      <motion.div className='nav-items'  >
-        <motion.ul className='first-nav' variants={container} initial="hidden" animate="show">
-          <motion.li variants={item} style={{ color }} onClick={()=>{navigate('/about')}}>About</motion.li>
-          <motion.li variants={item} style={{ color }}>Exchange</motion.li>
-          <motion.li variants={item} style={{ color }}>Sale</motion.li>
-          <motion.li variants={item} style={{ color }}>Discussion</motion.li>
-        </motion.ul>
-      </motion.div>
-
-      <div className='nav-items'>
-        <motion.ul className='first-nav' variants={container} initial="hidden" animate="show">
-          <motion.li variants={item}> Buy/sell</motion.li>
-          <motion.li variants={item}>Support</motion.li>
-        </motion.ul>
-      </div>
-
-      </motion.div>
 
         <Routes>
           <Route path="/about" element={
