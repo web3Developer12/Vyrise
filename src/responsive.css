@@ -42,7 +42,7 @@
 
     }
 
-    .ceil-1 .header{
+    .ceil-1 .header,.ceil-2 .header,.ceil-3 .header,.ceil-4 .header{
         font-size:calc( 1.4em + 1vw);
       
       }
