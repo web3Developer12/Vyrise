@@ -173,7 +173,7 @@
 }
 .ceil-1 .sub{
   font-family:'MACHINAREGULAR';
-  font-size:calc( .2em + 1vw);
+  font-size:calc( .6em + 1vw);
   
 }
 .ceil-2 {
@@ -465,4 +465,7 @@
 .exchanges li:hover{
   background-color:black;
   color:white;
+}
+.sub-wrapper{
+  max-width:65%;
 }

@@ -256,8 +256,10 @@ function App() {
           <motion.div className='header'>
             <TextAnimationBr text="Look;Beyond;the future" startDelay={1} />
           </motion.div>
+          <div className='sub-wrapper'>
 
-          <TextAnimationSub text="Get in touch with the new ERC-20 token on the core blockchain" startDelay={1} class='sub' />
+            <TextAnimationSub text="Get in touch with the new ERC-20 token on the core blockchain" startDelay={1} class='sub' />
+          </div>
 
           <motion.div class="container">
 
@@ -304,7 +306,8 @@ function App() {
           }} transition={{ delay: .8, duration: 1 }}></motion.div>
 
           <TextAnimationBr text="The;*Pre-Sale" class="header" startDelay={8} />
-          <p className='sub'>Get in Early: Token Presale Now Available for Exclusive Investors!</p>
+            <p className='sub'>Get in Early: Token Presale Now Available for Exclusive Investors!</p>
+         
           <button className='original-button'>Start buy</button>
         </motion.div>
 
