@@ -310,7 +310,7 @@
 .ceil-3 .sub{
   font-family:'MACHINAREGULAR';
   margin-top:2%;
-  font-size:calc( .2em + 1vw);
+  font-size:calc( .6em + 1vw);
   text-align:justify;
 
 
@@ -348,7 +348,8 @@
   font-family:'MACHINAREGULAR';
   font-size:18px;
   width:87%;
-  font-size:calc( .2em + 1vw);
+  font-size:calc( .6em + 1vw);
+  text-align:justify;
 }
 
 .ceil-5 {
@@ -474,5 +475,4 @@
 }
 .sub-wrapper-2{
   max-width:97%;
-  margin-top:2%;
 }

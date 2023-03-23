@@ -351,7 +351,6 @@ function App() {
 
           <p className='header'>#</p>
           <p className='sub'>Don't miss out on the chance to be a part of something revolutionary</p>
-          <span className='connect'>connect</span>
           <div className='socials'>
             <div className='social'>
               <img src={twitter} width={22} />
