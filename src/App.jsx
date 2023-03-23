@@ -306,8 +306,9 @@ function App() {
           }} transition={{ delay: .8, duration: 1 }}></motion.div>
 
           <TextAnimationBr text="The;*Pre-Sale" class="header" startDelay={8} />
-            <p className='sub'>Get in Early: Token Presale Now Available for Exclusive Investors!</p>
-         
+          <div className='sub-wrapper-2'>
+            <p className='sub'>Token Presale Now Available for Exclusive Investors!</p>
+          </div>
           <button className='original-button'>Start buy</button>
         </motion.div>
 

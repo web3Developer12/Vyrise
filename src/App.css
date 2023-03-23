@@ -163,6 +163,7 @@
   align-items:flex-start;
   justify-content:center;
 
+
 }
 
 .ceil-1 .header{
@@ -199,7 +200,8 @@
   margin-top:1%;
   font-family:'MACHINAREGULAR';
   color:black;
-  font-size:calc( .2em + 1vw);
+  font-size:calc( .6em + 1vw);
+
 
 }
 .wrapper-scrolling-h2{
@@ -468,4 +470,9 @@
 }
 .sub-wrapper{
   max-width:65%;
+  margin-top:2%;
+}
+.sub-wrapper-2{
+  max-width:97%;
+  margin-top:2%;
 }
