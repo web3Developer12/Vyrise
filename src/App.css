@@ -1,6 +1,8 @@
 .App{
   position:fixed;
   overflow-y:scroll;
+  height:100vh;
+  scroll-behavior: smooth;
 }
 .navbar{
   display:grid;
@@ -54,9 +56,10 @@
 .pattern{
   position:absolute;
   width:100%;
-  height:88vh;
+  height:99vh;
   background-image:url('./assets/pattern.svg');
   background-size:cover;
+  background-position-y:-34px;
   opacity:.5;
 }
 
@@ -75,12 +78,12 @@
 
 .gradient-2{
   position: absolute;
-  width: 549.02px;
-  height: 515.74px;
-  left: -16px;
+  width: 749.02px;
+  height: 715.74px;
+  left: -564px;
   top: 494px;
-  background: linear-gradient(220.45deg, rgba(255, 0, 107, 0) 28.54%, rgba(66, 0, 255, 0.5) 80.76%);
-  filter: blur(138px);
+  background:url('./assets/blobanimation.svg');
+  z-index:-1;
 }
 
 .section-1{
@@ -89,12 +92,23 @@
   color:white;
   padding-inline:5%;
   margin-top:5%;
+
+}
+.sec-1-a{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  grid-row-gap:6%;
 }
 .section-1 .header{
-  font-size:76px;
+  display:flex;
+  grid-column-gap:2%;
+  font-size:40px;
   color:white;
   font-family:'Inter';
-  font-weight:200;
+  font-weight:100;
+  width:100%;
 
 }
 .section-1 p:nth-child(2){
