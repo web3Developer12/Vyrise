@@ -1,10 +1,9 @@
 import { motion } from "framer-motion"
 
 export default function Tokens(){
-    return <motion.svg width="372" height="282" viewBox="0 0 372 282" fill="none"
-    xmlns="http://www.w3.org/2000/svg">
-    
-    <g id="tokens">
+    return <motion.svg width="372" height="282" viewBox="0 0 372 282" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <motion.g id="tokens">
         <motion.g id="token-3" initial={{y:13}} animate={{y:-17}} transition={{delay:3,repeat:Infinity,repeatType: "mirror",duration: 2}}>
             <g id="back" filter="url(#filter0_i_29_2)">
                 <ellipse cx="315.099" cy="198.901" rx="41.5" ry="41" transform="rotate(-28.7287 315.099 198.901)" fill="#181818"/>
@@ -41,7 +40,7 @@ export default function Tokens(){
                 <path id="Vect_6" d="M155.189 178.287L107.821 130.275C106.251 128.683 106.911 125.995 109.04 125.312L132.903 117.651C135.027 116.968 137.127 118.762 136.784 120.968L133.035 145.098C132.693 147.303 134.792 149.097 136.917 148.415L161.707 140.456C163.839 139.772 165.942 141.579 165.585 143.79L160.287 176.657C159.896 179.083 156.915 180.035 155.189 178.287Z" fill="url(#paint5_linear_29_2)"/>
             </g>
         </motion.g>
-    </g>
+    </motion.g>
 
     <defs>
         <filter id="filter0_i_29_2" x="273.706" y="157.777" width="82.7859" height="82.2471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">

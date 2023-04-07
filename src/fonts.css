@@ -1,27 +1,13 @@
 @font-face {
-    font-family:'CLIMATECRISIS';
-    src: url('./assets/fonts/static/ClimateCrisis-Regular.ttf');
-}
-.ClimateCrisis{
-    font-family:'MERSAD';
-}
-@font-face {
-    font-family:'INTERBOLD';
-    src: url('./assets/fonts/static/Inter-Bold.ttf');
-}
-@font-face {
-    font-family:'CHAKRAREGULAR';
-    src: url('./assets/fonts/static/ChakraPetch-Medium.ttf');
-}
-@font-face {
-    font-family:'TLTREGULAR';
-    src: url('./assets/fonts/static/TiltWarp-Regular.ttf');
-}
-@font-face {
-    font-family:'MERSAD';
+    font-family:'NM-ULTRABOLD';
     src: url('./assets/fonts/static/NeueMachina/NeueMachina-Ultrabold.otf');
 }
 @font-face {
-    font-family:'MACHINAREGULAR';
+    font-family:'NM-REGULAR';
     src: url('./assets/fonts/static/NeueMachina/NeueMachina-Regular.otf');
+}
+
+@font-face {
+    font-family:'NM-LIGHT';
+    src: url('./assets/fonts/static/NeueMachina/NeueMachina-Light.otf');
 }
